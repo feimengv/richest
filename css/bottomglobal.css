@@ -1,0 +1,1554 @@
+﻿footer {
+	position: fixed;
+	z-index: 11;
+	width: 100%;
+	height: 45px;
+	bottom: 0;
+	left: 0;
+	background-image: url(../images/bottomfooter.png);
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	background-color: #343434;
+	color: #FFF;
+	box-shadow: 0 0 5px #000; }
+
+	footer ul li { float: left; }
+
+	footer li a {
+		height: 35px;
+		line-height: 40px;
+		font-size: 18px;
+		display: block;
+		color: #FFF;
+		text-decoration: none;
+		text-align: center;
+		text-shadow: -1px -1px 1px #000; }
+
+		footer li a span {
+			display: inline-block;
+			padding-left: 35px;
+			background-repeat: no-repeat;
+			background-size: 22px;
+			background-position: 0 center; }
+
+		footer li a:first-child { border-right: solid 1px #282828; }
+		footer li a:last-child { border-left: solid 1px #494949; }
+		
+
+		footer li a.subscribes span { background-image: url(../Images/footer.subscribes.png); }
+		footer li a.orders span { background-image: url(../Images/footer.orders.png); }
+
+	footer .tool {
+		padding: 10px 0;
+		text-align: center; }
+
+		footer .tool a {
+			height: 45px;
+			line-height: 45px;
+			font-size: 18px;
+			display: inline-block;
+			color: #FFF;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: -1px -1px 1px #000;
+			width: 40%;
+			margin: 0 3%;
+			background-image: url(../Images/footer.button.brown.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center; }
+		
+		footer .tool a.orange {
+			background-image: url(../Images/footer.button.orange.png);
+			text-shadow: -1px -1px 0 #7A4418; }
+		
+		footer .tool a.red {
+			background-image: url(../Images/footer.button.red.png);
+			text-shadow: -1px -1px 0 #7C2828; }
+
+footers {
+	position: fixed;
+	z-index: 11;
+	width: 100%;
+	height: 45px;
+	bottom: 0;
+	left: 0;
+	background-image: url(../images/bottomfooter.png);
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	background-color: #343434;
+	color: #FFF;
+	box-shadow: 0 0 5px #000; }
+
+	footers ul li { float: left; }
+
+	footers li a {
+		height: 35px;
+		line-height: 40px;
+		font-size: 18px;
+		display: block;
+		color: #FFF;
+		text-decoration: none;
+		text-align: center;
+		text-shadow: -1px -1px 1px #000; }
+
+		footers li a span {
+			display: inline-block;
+			padding-left: 35px;
+			background-repeat: no-repeat;
+			background-size: 22px;
+			background-position: 0 center; }
+
+		footers li a:first-child { }
+		footers li a:last-child { }
+		
+
+		footers li a.subscribes span { background-image: url(../Images/footer.subscribes.png); }
+		footers li a.orders span { background-image: url(../Images/footer.orders.png); }
+
+	footers .tool {
+		padding: 10px 0;
+		text-align: center; }
+
+		footers .tool a {
+			height: 45px;
+			line-height: 45px;
+			font-size: 18px;
+			display: inline-block;
+			color: #FFF;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: -1px -1px 1px #000;
+			width: 40%;
+			margin: 0 3%;
+			background-image: url(../Images/footer.button.brown.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center; }
+		
+		footers .tool a.orange {
+			background-image: url(../Images/footer.button.orange.png);
+			text-shadow: -1px -1px 0 #7A4418; }
+		
+		footers .tool a.red {
+			background-image: url(../Images/footer.button.red.png);
+			text-shadow: -1px -1px 0 #7C2828; }
+			
+			
+
+.banner {
+	width: 100%;
+	height: 150px;
+	overflow: hidden; }
+
+	.banner .package,
+	.banner .item {
+		width: inherit;
+		height: inherit; }
+
+	.banner .item {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover; }
+	.banner .position {
+		position: absolute;
+		height: 0;
+		bottom: 0;
+		top: 160px;
+		width: 100%;
+		text-align: center;
+		display: block;
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 50px;
+		z-index: 21;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.banner .position em { font-style: normal;}
+	
+	.banner .position .on { color: rgba(255, 127, 127, 0.6); }
+
+.menus {
+	text-align: center;
+	padding-top: 40px; }
+
+	.menus a {
+		margin: 4%;
+		display: inline-block;
+		width: 39%;
+		height: 0;
+		overflow: hidden;
+		padding-top: 18%;
+		background-repeat: no-repeat;
+		background-size: 100% 100%; }
+
+		.menus a.menu00 { background-image: url(../Images/menu.00.png); }
+		.menus a.menu01 { background-image: url(../Images/menu.01.png); }
+		.menus a.menu02 { background-image: url(../Images/menu.02.png); }
+		.menus a.menu03 { background-image: url(../Images/menu.03.png); }
+		
+		.menus a.menu000 { background-image: url(../Images/menu000.png); }
+		.menus a.menu001 { background-image: url(../Images/menu001.png); }
+
+.calendar { padding: 0 5px; }
+
+	.calendar h3.date {
+		line-height: 50px;
+		font-size: 24px;
+		text-align: center;
+		font-weight: bold;
+		color: #333;
+		text-shadow: 1px 1px 0 #FFF; }
+
+	.calendar table.date {
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+		.calendar table.date th,
+		.calendar table.date td {
+			border: solid 1px rgba(70, 62, 56, 0.8);
+			text-align: center;
+			line-height: 35px; }
+
+		.calendar table.date th {
+			background-color: rgba(70, 62, 56, 0.75);
+			color: #FFF; }
+
+		.calendar table.date td {
+			font-size: 18px;
+			font-weight: bold;
+			color: #463E38;
+			background-color: rgba(255, 255, 255, 0.75);
+			text-shadow: -1px -1px 0 #EEE; }
+			
+		.calendar table.date td.active {
+			background-color: #5E9EF6;
+			color: #FFF;
+			text-shadow: -1px -1px 0 #4B76B2;
+		}
+		
+	.calendar div.time {
+		text-align: center;
+		font-size: 24px;
+		line-height: 24px;
+		margin-top: 10px;
+		font-weight: bold;
+		color: #666; }
+		.calendar div.time input {
+			-moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 15px;
+		
+			display: inline-block;
+			font-weight: bold;
+			color: #666;
+			margin: 0 10px;
+			text-align: center;
+			padding: 10px;
+			width: 100px;
+			border: none;
+			background-color: rgba(255, 255, 255, 0.5); }
+
+.subscribes {}
+
+	.subscribes .item {
+		display: block;
+		position: relative;
+		padding: 15px 10px;
+		color: #333;
+		text-decoration: none;
+		border-top: solid 1px #FFF;
+		border-bottom: solid 1px #EEE;
+		height: 60px;
+		overflow: hidden;
+		background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#FFF));
+		background: -webkit-linear-gradient(top, #EEE, #FFF);
+		background: -moz-linear-gradient(top, #EEE, #FFF);
+		background: -ms-linear-gradient(top, #EEE, #FFF);
+		background: -o-linear-gradient(top, #EEE, #FFF);
+		background: linear-gradient(top, #EEE, #FFF); }
+
+		.subscribes .item:before {
+			content: '签到';
+			display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+			background-color: #F30;
+			background: -webkit-gradient(linear, left top, left bottom, from(#F30), to(#C30));
+			background: -webkit-linear-gradient(top, #F30, #C30);
+			background: -moz-linear-gradient(top, #F30, #C30);
+			background: -ms-linear-gradient(top, #F30, #C30);
+			background: -o-linear-gradient(top, #F30, #C30);
+			background: linear-gradient(top, #F30, #C30); }
+
+		.subscribes .item span {
+			display: inline-block;
+			text-shadow: 1px 1px 0 #FFF; }
+
+		.subscribes .item .container {}
+
+		.subscribes .item .restaurant {
+			position: absolute;
+			left: 10px;
+			bottom: 10px;
+			font-size: 18px; }
+
+		.subscribes .item .date {
+			font-size: 24px;
+			color: #333;
+			font-weight: bold; }
+
+		.subscribes .item .time {
+			font-size: 24px;
+			font-weight: bold;
+			color: #999;
+			margin-right: 10px; }
+
+		.subscribes .item .type {}
+
+.orders {}
+
+	.orders .item {
+		display: block;
+		position: relative;
+		padding: 15px 10px;
+		color: #333;
+		text-decoration: none;
+		border-top: solid 1px #FFF;
+		border-bottom: solid 1px #EEE;
+		height: 60px;
+		overflow: hidden;
+		background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#FFF));
+		background: -webkit-linear-gradient(top, #EEE, #FFF);
+		background: -moz-linear-gradient(top, #EEE, #FFF);
+		background: -ms-linear-gradient(top, #EEE, #FFF);
+		background: -o-linear-gradient(top, #EEE, #FFF);
+		background: linear-gradient(top, #EEE, #FFF); }
+
+		.orders .item:before {
+			display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+			background-color: #F30;
+			background: -webkit-gradient(linear, left top, left bottom, from(#F30), to(#C30));
+			background: -webkit-linear-gradient(top, #F30, #C30);
+			background: -moz-linear-gradient(top, #F30, #F30);
+			background: -ms-linear-gradient(top, #F30, #C30);
+			background: -o-linear-gradient(top, #F30, #C30);
+			background: linear-gradient(top, #F30, #C30); }
+			
+			.orders .itemsuccess:before{
+			display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+			background-color: #080;
+			background: -webkit-gradient(linear, left top, left bottom, from(#080), to(#080));
+			background: -webkit-linear-gradient(top, #080, #080);
+			background: -moz-linear-gradient(top, #080, #080);
+			background: -ms-linear-gradient(top, #080, #080);
+			background: -o-linear-gradient(top, #080, #080);
+			background: linear-gradient(top, #080, #080); 
+			}
+			.orders .itemrefuse:before{
+						display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+			background-color: #C1F;
+			background: -webkit-gradient(linear, left top, left bottom, from(#C1F), to(#C1F));
+			background: -webkit-linear-gradient(top, #C1F, #C1F);
+			background: -moz-linear-gradient(top, #C1F, #C1F);
+			background: -ms-linear-gradient(top, #C1F, #C1F);
+			background: -o-linear-gradient(top, #C1F, #C1F);
+			background: linear-gradient(top, #C1F, #C1F); 
+			}
+			.orders .itempost:before{
+						display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+			background-color: #3CC4C4;
+			background: -webkit-gradient(linear, left top, left bottom, from(#3CC4C4), to(#3CC4C4));
+			background: -webkit-linear-gradient(top, #3CC4C4, #3CC4C4);
+			background: -moz-linear-gradient(top, #3CC4C4, #3CC4C4);
+			background: -ms-linear-gradient(top, #3CC4C4, #3CC4C4);
+			background: -o-linear-gradient(top, #3CC4C4, #3CC4C4);
+			background: linear-gradient(top, #3CC4C4, #3CC4C4); 
+			}
+			.orders .itemnotpost:before{
+						display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+					background-color: #2292DD;
+			background: -webkit-gradient(linear, left top, left bottom, from(#2292DD), to(#2292DD));
+			background: -webkit-linear-gradient(top, #2292DD, #2292DD);
+			background: -moz-linear-gradient(top, #2292DD, #2292DD);
+			background: -ms-linear-gradient(top, #2292DD, #2292DD);
+			background: -o-linear-gradient(top, #2292DD, #2292DD);
+			background: linear-gradient(top, #2292DD, #2292DD); 
+			}
+			.orders .itemtimeout:before{
+						display: block;
+			color: #FEE;
+			font-size: 14px;
+			line-height: 30px;
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: solid 1px #FFF;
+			text-shadow: -1px -1px 0 #B00;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			position: absolute;
+			right: -80px;
+			top: 5px;
+			background-color: #333333;
+			background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#333333));
+			background: -webkit-linear-gradient(top, #333333, #333333);
+			background: -moz-linear-gradient(top, #333333, #333333);
+			background: -ms-linear-gradient(top, #333333, #333333);
+			background: -o-linear-gradient(top, #333333, #333333);
+			background: linear-gradient(top, #333333, #333333); 
+			}
+.orders .ds:before{content: '店食';}
+.orders .wm:before{content: '外卖';}
+.notpost:before{content: '去下单';}
+.post:before{content: '已下单';}
+.posterror:before{content: '没营业';}
+.postsuccess:before{content: '待送餐';}
+.postrefuse:before{content: '已卖完;}
+.posttimeout:before{content: '网络超时';}
+		.orders .item span {
+			display: inline-block;
+			text-shadow: 1px 1px 0 #FFF; }
+
+		.orders .item .container {}
+
+		.orders .item .orders {
+			position: absolute;
+			left: 10px;
+			bottom: 10px;
+			font-size: 18px; }
+
+		.orders .item .date {
+			font-size: 24px;
+			color: #333;
+			font-weight: bold; }
+
+		.orders .item .time {
+			font-size: 24px;
+			font-weight: bold;
+			color: #999;
+			margin-right: 10px; }
+
+		.orders .item .type {}
+
+.search-restaurants {}
+
+	.search-restaurants .item {
+		display: block;
+		position: relative;
+		padding: 15px 10px;
+		color: #333;
+		text-decoration: none;
+		overflow: hidden;
+		background-image: url(../Images/paper.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		margin: 20px 10px; }
+
+		.search-restaurants .item .restaurant .name {
+			font-size: 19px;
+			line-height: 20px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			color: #222;
+			position: relative;
+			text-shadow: 1px 1px 0 #FFF;
+			margin-bottom: 10px; }
+
+		.search-restaurants .item .restaurant address {
+			color: #0C8994;
+			clear: both;
+			text-shadow: 1px 1px 0 #FFF; }
+
+		.search-restaurants .item .restaurant .stars {
+			font-size: 20px;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			color: #C30;
+			text-shadow: 1px 1px 0 #FFF; }
+
+		.search-restaurants .item .restaurant .spend { color: #666; }
+
+			.search-restaurants .item .restaurant .spend strong {
+				font-size: 20px;
+				line-height: 30px; }
+
+			.search-restaurants .item .restaurant .spend:before { content: '人均消费: '; }
+
+.order-restaurants {}
+
+	.order-restaurants .item {
+		display: block;
+		position: relative;
+		padding: 15px 10px;
+		color: #333;
+		text-decoration: none;
+		overflow: hidden;
+		background-image: url(../Images/paper.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		margin: 20px 10px; }
+
+		.order-restaurants .item .restaurant .name {
+			font-size: 19px;
+			line-height: 20px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			color: #222;
+			position: relative;
+			text-shadow: 1px 1px 0 #FFF;
+			margin-bottom: 10px; }
+
+		.order-restaurants .item .restaurant address {
+			color: #0C8994;
+			clear: both;
+			text-shadow: 1px 1px 0 #FFF; }
+
+.subscribe-restaurants {}
+
+	.subscribe-restaurants .item {
+		display: block;
+		position: relative;
+		padding: 15px 10px;
+		color: #333;
+		text-decoration: none;
+		overflow: hidden;
+		background-image: url(../Images/paper.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		margin: 20px 10px; }
+
+		.subscribe-restaurants .item .restaurant .name {
+			font-size: 19px;
+			line-height: 20px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			color: #222;
+			position: relative;
+			text-shadow: 1px 1px 0 #FFF;
+			margin-bottom: 10px; }
+
+		.subscribe-restaurants .item .restaurant address {
+			color: #0C8994;
+			clear: both;
+			text-shadow: 1px 1px 0 #FFF; }
+
+		.subscribe-restaurants .item .restaurant .type {
+			overflow: hidden;
+			zoom: 1;
+			margin-bottom: 10px;
+			text-shadow: 1px 1px 0 #FFF; }
+
+			.subscribe-restaurants .item .restaurant .type li {
+				float: left;
+				margin-right: 20px; }
+
+				.subscribe-restaurants .item .restaurant .type li span {
+					font-size: 24px;
+					display: inline-block;
+					margin-left: 5px;
+					font-weight: bold;
+					color: #666; }
+
+.subscribe-details {
+	padding: 20px 10px;
+	font-size: 16px; }
+
+	.subscribe-details .module {
+		color: #666;
+		border: solid 1px #AAA;
+		margin-bottom: 20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background-color: #FFF;
+		-moz-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+		zoom: 1; }
+
+	.subscribe-details .type { overflow: hidden; zoom: 1; margin-bottom: 20px; }
+
+		.subscribe-details .type p {
+			color: #FFF;
+			text-align: center;
+			line-height: 40px;
+			float: left;
+			width: 40%;
+			margin: 2% 5%;
+			background-image: url(../Images/site.png);
+			background-position: center;
+			background-size: 100% 100%;
+			background-repeat: no-repeat; }
+			
+		.subscribe-details .type p.active {
+			background-image: url(../Images/site.active.png); }
+
+	.subscribe-details .datetime { padding: 15px; }
+
+		.subscribe-details .datetime p:before { content: '时间: '; }
+
+	.subscribe-details .client p,
+	.subscribe-details .contact p { padding: 15px; }
+	.subscribe-details .contact p input { border: none; }
+	.subscribe-details .client p input { border: none; }
+
+	.subscribe-details .client p:first-child,
+	.subscribe-details .contact p:first-child {
+		border-bottom: solid 1px #AAA;
+		padding-bottom: 10px; }
+
+	.subscribe-details .client p:last-child,
+	.subscribe-details .contact p:last-child { padding-top: 10px; border-bottom: none; }
+
+	.subscribe-details .client p.telephone:before,
+	.subscribe-details .contact p.telephone:before { content: '联系方式: ' }
+
+	.subscribe-details .client p.linkman:before { content: '姓名: ' }
+	
+	.subscribe-details .client p.remark:before,
+	.subscribe-details .contact p.remark:before { content: '备注: ' }
+
+	.subscribe-details .client p.address:before,
+	.subscribe-details .contact p.address:before { content: '地址: ' }
+
+	.subscribe-details .tool {
+		padding: 10px 0;
+		text-align: center; }
+
+		.subscribe-details .tool a {
+			height: 45px;
+			line-height: 45px;
+			font-size: 18px;
+			display: inline-block;
+			color: #FFF;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: -1px -1px 1px #7C2828;
+			width: 50%;
+			background-image: url(../Images/footer.button.red.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center; }
+
+.restaurant-details {
+	padding: 20px 10px;
+	font-size: 16px; }
+
+	.restaurant-details .module {
+		border: solid 1px #AAA;
+		margin-bottom: 20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background-color: #FFF;
+		color: #666;
+		-moz-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+		zoom: 1; }
+
+	.restaurant-details .contact p {
+		padding: 15px;
+		border-bottom: solid 1px #AAA; }
+
+		.restaurant-details .contact p:first-child { padding-bottom: 10px; }
+		.restaurant-details .contact p:last-child {
+			padding-top: 10px;
+			border-bottom: none; }
+
+		.restaurant-details .contact p.telephone:before { content: '联系方式: ' }
+		.restaurant-details .contact p.address:before { content: '地址: ' }
+		.restaurant-details .contact p.map:before { content: '乘车路线: ' }
+
+	.restaurant-details .notice { padding: 15px; }
+		.restaurant-details .notice p:before { content: '点餐须知: '; }
+
+	.restaurant-details .advertisement { padding: 15px; }
+		.restaurant-details .advertisement p:before { content: '优惠: '; }
+
+	.restaurant-details .value {}
+
+		.restaurant-details .value ul {}
+
+			.restaurant-details .value ul li {
+				padding: 15px;
+				border-bottom: solid 1px #AAA; }
+
+				.restaurant-details .value ul li:first-child {}
+					.restaurant-details .value ul li:first-child:before { content: '赞誉: '; }
+
+				.restaurant-details .value ul li:last-child { border-bottom: none; }
+					.restaurant-details .value ul li:last-child:before { content: '人均消费: '; }
+
+	.restaurant-details .business {}
+
+		.restaurant-details .business ul {}
+
+			.restaurant-details .business ul li {
+				padding: 15px;
+				border-bottom: solid 1px #AAA; }
+
+				.restaurant-details .business ul li:first-child {}
+					.restaurant-details .business ul li:first-child:before { content: '午市: '; }
+
+				.restaurant-details .business ul li:last-child { border-bottom: none; }
+					.restaurant-details .business ul li:last-child:before { content: '晚市: '; }
+
+
+
+
+
+
+
+
+
+
+.order-details {
+	padding: 20px 10px;
+	font-size: 16px; }
+
+	.order-details .module {
+		color: #666;
+		border: solid 1px #AAA;
+		margin-bottom: 20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background-color: #FFF;
+		-moz-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+		zoom: 1; }
+	
+	.order-details .foodList p {
+		padding: 15px;
+		border-bottom: solid 1px #AAA;
+	}
+	.order-details .foodList p:last-child {
+		border-bottom: none;
+	}
+	
+	.order-details .foodList p span { display: inline-block; }
+	.order-details .foodList p span.name {
+		width: 70%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis; }
+	.order-details .foodList p span.count { width: 10%; }
+	.order-details .foodList p span.charge { float: right; color: #DE1B1B; }
+	
+	.order-details .desk { padding: 15px; }
+
+		.order-details .desk p {
+			float: left;
+			line-height: 25px; }
+			.order-details .desk p:before { content: '桌号: ' }
+			.order-details .desk p input { border: none; }
+
+	.order-details .contact p { padding: 15px; }
+
+	.order-details .contact p:first-child {
+		border-bottom: solid 1px #AAA;
+		padding-bottom: 10px; }
+
+	.order-details .contact p:last-child { padding-top: 10px; border-bottom: none; }
+
+	.order-details .contact p.telephone:before { content: '联系方式: ' }
+	.order-details .contact p input { border: none; }
+	
+	.order-details .name p { padding: 15px; }
+	.order-details .name p:before { content: '顾客姓名: ' }
+	.order-details .name p input { border: none; }
+	
+	.order-details .address p { padding: 15px; }
+	.order-details .address p:before { content: '送餐地址: ' }
+	.order-details .address p input { border: none; }
+
+	.order-details .remark p { padding: 15px; }
+	.order-details .remark p:before { content: '备注: ' }
+	.order-details .remark p input { border: none; }
+	
+	.order-details .sendtime p { padding: 15px; }
+	.order-details .sendtime p:before { content: '送餐时间: ' }
+	.order-details .sendtime p select { border: none; }
+	
+	.order-details .tool {
+		padding: 10px 0;
+		text-align: center; }
+
+		.order-details .tool a {
+			height: 45px;
+			line-height: 45px;
+			font-size: 18px;
+			display: inline-block;
+			color: #FFF;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: -1px -1px 1px #7A4418;
+			width: 50%;
+			background-image: url(../Images/footer.button.orange.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cartes {}
+
+	.cartes .item {
+		border-bottom: solid 1px #EEE;
+		display: block;
+		color: #000;
+		text-decoration: none; }
+
+	.cartes .carte {
+		position: relative;
+		min-height: 60px; }
+
+.carte .thumb {
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	height: 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 150px;
+	overflow: hidden;
+	outline: solid 1px #666;
+	outline-offset: -1px; }
+
+.carte .paster:before {
+	display: block;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 20px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	-webkit-transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	transform: rotate(315deg);
+	position: absolute;
+	left: -35px;
+	top: 5px; }
+
+.carte .paster-red { outline: solid 1px #F30; }
+	.carte .paster-red:before { background-color: #F30; }
+
+.carte .paster-green { outline: solid 1px #090; }
+	.carte .paster-green:before { background-color: #090; }
+
+.carte .paster-new:before { content: 'NEW'; }
+.carte .paster-preference:before { content: '优惠'; }
+
+.carte .name {
+	font-size: 19px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #39312E;
+	text-shadow: -1px -1px 0 #EEE; }
+
+	.carte .name a {
+		color: #222;
+		text-decoration: none; }
+
+.carte li { float: left; text-shadow: -1px -1px 0 #EEE; }
+
+	.carte li.price {
+		font-size: 14px;
+		color: #DE1B1B; }
+
+		.carte li.price strong {
+			font-size: 30px;
+			line-height: 30px; }
+
+	.carte li.praise:before { content: '赞'; }
+	.carte li.praise {
+		
+		
+		margin-left: 20px;
+		line-height: 42px;
+		height: 30px;
+		overflow: hidden;
+		font-size: 14px;
+		font-weight: bold;
+		
+		
+		
+		color: #DD9D22;
+		/*height: 25px;overflow: hidden;
+		min-width: 15px;
+		display: block;
+		background-color: #F30;
+		padding-left: 25px;
+		padding-right: 5px;
+		position: absolute;
+		bottom: 10px;
+		right: 50px;
+		text-align: center;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 2px;
+		background-image: url(../Images/praise.svg);
+		background-position: 5px center;
+		background-repeat: no-repeat;
+		background-size: 14px;*/ }
+
+.carte .order {
+	background: -webkit-gradient(linear, left top, left bottom, from(#AFCBEB), to(#8EAED2));
+	background: -webkit-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -moz-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -ms-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -o-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: linear-gradient(top, #AFCBEB, #8EAED2);
+	color: #FFF;
+	text-shadow: -1px -1px 0 #CCC;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	display: block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	padding: 6px;
+	font-size: 20px;
+	line-height: 20px; }
+
+
+.carte .active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#F90), to(#F60));
+	background: -webkit-linear-gradient(top, #F90, #F60);
+	background: -moz-linear-gradient(top, #F90, #F60);
+	background: -ms-linear-gradient(top, #F90, #F60);
+	background: -o-linear-gradient(top, #F90, #F60);
+	background: linear-gradient(top, #F90, #F60);
+}
+@media all and (orientation:portrait)
+{
+	.cartes .item:last-child
+	{
+		border-bottom: none;
+	}
+
+	.cartes .carte
+	{
+		padding: 10px 10px 10px 75px;
+	}
+
+	.cartes .carte .thumb
+	{
+		width: 60px;
+	}
+}
+
+@media all and (orientation:landscape)
+{
+	.cartes .item
+	{
+		width: 50%;
+		float: left;
+	}
+	
+	.cartes .item:nth-child(even) .carte
+	{
+		border-left: solid 1px #EEE;
+	}
+
+	.cartes .carte
+	{
+		padding: 10px 10px 10px 75px;
+	}
+
+	.cartes .carte .thumb
+	{
+		width: 60px;
+	}
+}
+
+.carte-details {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 20px;
+	top: 100px;
+	color: #FFF;
+	padding: 15px 25px;
+	border: solid 1px rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); }
+
+	.carte-details h4 {
+		font-size: 16px;
+		margin-bottom: 5px; }
+
+	.carte-details p { margin-bottom: 10px; }
+
+	.carte-details:after {
+		position: absolute;
+		top: 20%;
+		right: -21px;
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 10px;
+		border-color: transparent transparent transparent rgba(0, 0, 0, 0.6); }
+
+.sign-details {
+	padding: 20px 10px;
+	font-size: 16px; }
+
+	.sign-details .module {
+		color: #666;
+		border: solid 1px #AAA;
+		margin-bottom: 20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background-color: #FFF;
+		-moz-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+		zoom: 1; }
+
+		.sign-details .module p {
+			padding: 15px;
+			border-bottom: solid 1px #AAA; }
+
+			.sign-details .module p:first-child { padding-bottom: 10px; }
+
+			.sign-details .module p:last-child {
+				padding-top: 10px;
+				border-bottom: none; }
+
+	.sign-details .name {}
+
+		.sign-details .name:before { content: '签到店铺: '; }
+
+	.sign-details .size {}
+
+		.sign-details .size:before { content: '餐位类型: '; }
+
+	.sign-details .date {}
+
+		.sign-details .date:before { content: '就餐市别: '; }
+
+	.sign-details .notice {
+		font-size: 12px;
+		color: #666;
+		margin-top: 20px; }
+
+	.sign-details .tool {
+		padding: 10px 0;
+		text-align: center; }
+
+		.sign-details .tool a {
+			height: 45px;
+			line-height: 45px;
+			font-size: 18px;
+			display: inline-block;
+			color: #FFF;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: -1px -1px 1px #000;
+			width: 50%;
+			background-image: url(../Images/footer.button.brown.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.styles { font-size: 19px; line-height: 19px; }
+
+.styles .item {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	
+	padding: 20px 10px;
+	border-top: solid 1px #FFF;
+	border-bottom: solid 1px #EEE;
+	
+	text-shadow: 1px 1px 0 #FFF;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#FFF));
+	background: -webkit-linear-gradient(top, #EEE, #FFF);
+	background: -moz-linear-gradient(top, #EEE, #FFF);
+	background: -ms-linear-gradient(top, #EEE, #FFF);
+	background: -o-linear-gradient(top, #EEE, #FFF);
+	background: linear-gradient(top, #EEE, #FFF);
+}
+.styles .item .style .name:after {
+	content: '›';
+	float: right;
+	color: #CCC;
+	font-size: 40px;
+	text-shadow: 1px 1px 0 #FFF; }
+
+
+
+
+
+
+
+
+
+.foods {}
+
+.foods .item {
+	overflow: hidden;
+	zoom: 1;
+	display: block;
+
+	position: relative;
+	padding: 15px 10px;
+	color: #333;
+	text-decoration: none;
+	overflow: hidden;
+	background-image: url(../Images/paper.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	margin: 20px 10px;
+}
+
+.foods .item .name {
+	color: #333;
+	font-size: 19px;
+	line-height: 40px; 
+	float: left;
+	width: 120px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-shadow: 1px 1px 0 #FFF; }
+
+.foods .item .price {
+	color: #DE1B1B;
+	line-height: 30px;
+	float: left; }
+
+.foods .item .price strong { font-size: 30px; }
+
+.foods .item .count {
+	font-size: 20px;
+	line-height: 20px;
+	float: right;
+}
+.foods .item .count span {
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	display: inline-block;
+	padding: 6px; }
+
+.foods .item .count .value {}
+.foods .item .count .addOne,
+.foods .item .count .reduceOne {
+	background: -webkit-gradient(linear, left top, left bottom, from(#AFCBEB), to(#8EAED2));
+	background: -webkit-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -moz-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -ms-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -o-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: linear-gradient(top, #AFCBEB, #8EAED2);
+	color: #FFF;
+	text-shadow: -1px -1px 0 #CCC;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.carte .count {
+	font-size: 20px;
+	line-height: 20px;
+	float: right;
+}
+.carte .count span {
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	display: inline-block;
+	padding: 6px; }
+
+.carte .count .value {}
+.carte .count .addOne,
+.carte .count .reduceOne {
+	background: -webkit-gradient(linear, left top, left bottom, from(#AFCBEB), to(#8EAED2));
+	background: -webkit-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -moz-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -ms-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: -o-linear-gradient(top, #AFCBEB, #8EAED2);
+	background: linear-gradient(top, #AFCBEB, #8EAED2);
+	color: #FFF;
+	text-shadow: -1px -1px 0 #CCC;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div.charge {
+	text-align: center;
+	padding: 10px;
+	
+}
+
+div.charge span {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.charge span.charge {
+	color: #DE1B1B;
+}
+
+div.charge span:before {
+	color: #999;
+	font-size: 14px;
+	margin-right: 5px;
+}
+div.charge span.count:before { content: '总计: '; }
+div.charge span.charge:before { content: '合计: '; }
+
+
+
+
+p.information {
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	
+	color: #666;
+	border: solid 1px #AAA;
+	margin-bottom: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+	-moz-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	zoom: 1;
+	margin: 20px 10px;
+}
+
+.cascade-active {
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: -1px -1px 1px #000;
+	width: 100%;
+	margin: 20px auto;
+	background-image: url(../Images/footer.button.brown.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+/* .cascade-active:before {
+	content: '加载更多';
+	color: #FFF;
+} */
+
+.count_position {
+	background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 2px #D2D2D2;
+    padding: 1px;
+}
+li a.current {
+	margin-top: 1px;
+	background-image: url(../Images/footer.button.orange.png);
+	background-color: #405069;
+	background-position: center bottom;
+}
+
+/* Intro */
+.intro_img{width:100%;height:auto;}
+.download{color:#131313;padding:20px 0 10px 0;font-size:18px;font-weight:bold;width:98%;margin:0 auto;}
+.down{width:90%;margin:0 auto;}
+
+.download_buttons{width:90%;}
+.download_buttons a{display:inline-block;width:30%;text-align:center;}
+/*.download_buttons .iphone{background-image:url(../Images/button_green.png);background-repeat:no-repeat;background-size:contain;background-position:center;}
+.download_buttons .android{background-image:url(../Images/button_yellow.png);background-repeat:no-repeat;background-size:contain;background-position:center;}
+.download_buttons .winphone{background-image:url(../Images/button_blue.png);background-repeat:no-repeat;background-size:contain;background-position:center;}
+*/
+.intro_words{font-size:14px;color:#131313;line-height:25px;font-weight:bold;text-indent:2em;padding-top:15px;padding-bottom:15px;}
+.grade{width:100%;height:106px;background:#fff;border-radius:20px;line-height:106px;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
+	background: -webkit-linear-gradient(top, #fff, #e2e2e2);
+	background: -moz-linear-gradient(top, #fff, #e2e2e2);
+	background: -ms-linear-gradient(top, #fff, #e2e2e2);
+	background: -o-linear-gradient(top, #fff, #e2e2e2);
+	background: linear-gradient(top, #fff, #e2e2e2);
+	
+	box-shadow:0 2px 10px #666;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.grade_word{font-size:30px;color:#131313;font-weight:bold;float:left;width:20%;text-align:center;}
+.grade_star{width:60%;float:left;}
+.grade_star img{vertical-align:middle;}
+.jiantou{float:right;width:20%;text-align: center;}
+.jiantou img{vertical-align:middle;}
+
+@media screen and (max-width: 800px) {
+    .grade{width:100%;height:82px;background:#fff;border-radius:20px;line-height:82px;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
+	background: -webkit-linear-gradient(top, #fff, #e2e2e2);
+	background: -moz-linear-gradient(top, #fff, #e2e2e2);
+	background: -ms-linear-gradient(top, #fff, #e2e2e2);
+	background: -o-linear-gradient(top, #fff, #e2e2e2);
+	background: linear-gradient(top, #fff, #e2e2e2);
+	
+	box-shadow:0 2px 10px #666;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;}
+}
+
+
+@media screen and (max-width: 640px) {
+    .grade{width:100%;height:60px;background:#fff;border-radius:20px;line-height:60px;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
+	background: -webkit-linear-gradient(top, #fff, #e2e2e2);
+	background: -moz-linear-gradient(top, #fff, #e2e2e2);
+	background: -ms-linear-gradient(top, #fff, #e2e2e2);
+	background: -o-linear-gradient(top, #fff, #e2e2e2);
+	background: linear-gradient(top, #fff, #e2e2e2);
+	
+	box-shadow:0 2px 10px #666;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;}
+	
+	.grade_word{font-size:20px;color:#131313;font-weight:bold;float:left;width:20%;text-align:center;}
+	.grade_star img{width:30px;}
+	.jiantou img{width:30px;}
+}
+
+@media screen and (max-width: 540px) {
+    .grade{width:100%;height:56px;background:#fff;border-radius:20px;line-height:56px;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
+	background: -webkit-linear-gradient(top, #fff, #e2e2e2);
+	background: -moz-linear-gradient(top, #fff, #e2e2e2);
+	background: -ms-linear-gradient(top, #fff, #e2e2e2);
+	background: -o-linear-gradient(top, #fff, #e2e2e2);
+	background: linear-gradient(top, #fff, #e2e2e2);
+	
+	box-shadow:0 2px 10px #666;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;}
+	
+	.grade_word{font-size:20px;color:#131313;font-weight:bold;float:left;width:20%;text-align:center;}
+	.grade_star img{width:30px;}
+	.jiantou img{width:30px;}
+}
+
+@media screen and (max-width: 420px) {
+    .grade{width:100%;height:40px;background:#fff;line-height:40px;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e2e2e2));
+	background: -webkit-linear-gradient(top, #fff, #e2e2e2);
+	background: -moz-linear-gradient(top, #fff, #e2e2e2);
+	background: -ms-linear-gradient(top, #fff, #e2e2e2);
+	background: -o-linear-gradient(top, #fff, #e2e2e2);
+	background: linear-gradient(top, #fff, #e2e2e2);
+	
+	box-shadow:0 2px 10px #666;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;}
+	
+	.grade_word{font-size:18px;color:#131313;font-weight:bold;float:left;width:20%;text-align:center;}
+	.grade_star img{width:20px;}
+	.jiantou img{width:20px;}
+}
+div.loading {
+	width: 100%;
+	height: 100%;
+	background: #FFF url(./loading.gif) center no-repeat;
+	position:fixed;
+	z-index: 103;
+	opacity: 0.5;
+	background-size: 66px 14px;
+}
